@@ -37,7 +37,6 @@ from helpers.account import Account
 
 linora_http_url = "https://api.testnet.linora.trade/v1"
 
-
 def build_auth_message(chainId: int, now: int, expiry: int) -> TypedData:
     message = {
         "message": {
