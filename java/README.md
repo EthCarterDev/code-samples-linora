@@ -35,6 +35,7 @@ What this example does:
 
 Refer to the `main` method under [order.groovy](order.groovy#L29) for the flow that consists of:
 
+
 * Generating message hash and signature
 * Getting a JWT from `GET /auth` endpoint
 * Creating order using `POST /orders` endpoint
