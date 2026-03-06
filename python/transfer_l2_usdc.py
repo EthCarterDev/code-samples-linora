@@ -35,6 +35,7 @@ async def paraclear_transfer(
         provider=old_account, address=usdc_address, proxy_config=get_proxy_config()
     )
 
+    
     # Set transfer amount to available balance if not specified
     if (transfer_amount is None):
         old_acc_token_asset_bal = await paraclear_contract.functions["getTokenAssetBalance"].call(
