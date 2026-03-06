@@ -81,6 +81,7 @@ class ParadexAuthExample {
     static String convertBigIntListToString(List<BigInteger> list) {
         def jsonArray = list.collect { "\"${it}\"" }.join(',')
         return "[$jsonArray]"
+        
     }
 
     static String createAuthMessage(long timestamp, long expiration, String chainIdHex) {
