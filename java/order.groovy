@@ -54,7 +54,7 @@ class ParadexOrderExample {
         def authMessage = createAuthMessage(timestamp, expiry, chainId)
 
         // Get signature
-        def (String signatureStr, String messageHashStr) = getSignature(authMessage)
+        def (String signatureStr, String messageHashStr) = getSignature(authMessage
 
         // Call the auth endpoint
         def requestHeaders = [
