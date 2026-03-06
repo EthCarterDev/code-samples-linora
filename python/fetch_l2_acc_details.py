@@ -23,7 +23,6 @@ async def main(eth_private_key_hex: str) -> None:
     print(f"linora Account Address: {linora_account_address}")
     print(f"linora Account Private Key: {linora_account_private_key_hex}")
 
-
 if __name__ == "__main__":
     
     # Logging
