@@ -15,7 +15,6 @@ export async function onboardUser(config: SystemConfig, account: Account) {
   const inputBody = JSON.stringify({
     public_key: account.publicKey,
   });
-
   const headers = {
     "Content-Type": "application/json",
     Accept: "application/json",
