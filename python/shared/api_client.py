@@ -44,6 +44,7 @@ from helpers.account import Account
 async def sign_request(
     linora_maker_secret_key: str, method: str, path: str, body: Dict
 ) -> Tuple[int, bytes]:
+    
     """
     Creates the required signature necessary
     as apart of all RESToverHTTP requests with linora.
