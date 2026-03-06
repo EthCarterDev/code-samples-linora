@@ -81,7 +81,7 @@ func BenchmarkGnarkSignSingleOrder(b *testing.B) {
 	require.NoError(b, err)
 	sc := caigo.StarkCurve{}
 	domEnc, err := td.GetTypedMessageHash("StarkNetDomain", td.Domain, sc)
-	require.NoError(b, err)
+	require.NoError(s, err)
 	sum := big.NewInt(0)
 	b.ResetTimer()
 	var sig []byte
