@@ -26,7 +26,6 @@ from utils import (
 
 linora_http_url = "https://api.testnet.linora.trade/v1"
 l2_bridge_version = 2
-
 async def withdraw_from_paraclear(
     l1_recipient: str, amount: int, config: Dict, account: Account
 ) -> Tuple[Client, str]:
