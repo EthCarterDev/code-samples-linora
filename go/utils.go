@@ -43,7 +43,7 @@ func ParseGetOrders(res *http.Response) []*Order {
 func ComputeAddress(config SystemConfigResponse, publicKey string) string {
 	publicKeyBN := types.HexToBN(publicKey)
 
-	paraclearAccountHashBN := types.HexToBN(config.ParaclearAccountHash)
+	paraclearAccoundtHashBN := types.HexToBN(config.ParaclearAccountHash)
 	paraclearAccountProxyHashBN := types.HexToBN(config.ParaclearAccountProxyHash)
 
 	zero := big.NewInt(0)
