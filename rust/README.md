@@ -43,7 +43,6 @@ The example uses the following crates (already specified in Cargo.toml):
 ```bash
 cargo run
 ```
-
 ## What the example does
 
 1. Connects to linora testnet
