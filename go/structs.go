@@ -58,6 +58,7 @@ type Order struct {
 	ClientId           string      `json:"client_id" example:"x1234"`                                                           // Client id passed on order creation
 }
 
+
 type OpenOrdersRes struct {
 	Results []*Order `json:"results"` // Orders list
 }
