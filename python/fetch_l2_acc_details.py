@@ -25,6 +25,7 @@ async def main(eth_private_key_hex: str) -> None:
 
 
 if __name__ == "__main__":
+    
     # Logging
     logging.basicConfig(
         level=os.getenv("LOGGING_LEVEL", "INFO"),
