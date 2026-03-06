@@ -10,6 +10,7 @@ require (
 	github.com/stretchr/testify v1.8.3
 )
 
+
 require (
 	github.com/bits-and-blooms/bitset v1.7.0 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
