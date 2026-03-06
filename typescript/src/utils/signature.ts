@@ -17,6 +17,7 @@ import {
 } from "./typed_data";
 import { Account, SystemConfig } from "./types";
 
+
 const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
 
 function signatureFromTypedData(account: Account, typedData: TypedData) {
