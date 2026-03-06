@@ -53,6 +53,7 @@ def price_more_aggressive(price1: Decimal, price2: Decimal, side: OrderSide) -> 
         return price1 > price2
     else:
         return price1 < price2
+        
 
 
 def sign(a) -> int:
