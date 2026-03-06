@@ -55,6 +55,7 @@ func GeneratelinoraAccount(config SystemConfigResponse, ethPrivateKey string) (s
 	ethSignature, _ := SignTypedData(typedData(config.L1ChainId), privateKey)
 	// Convert the first 32 bytes of ethSignature to a hex string
 	r := hex.EncodeToString(ethSignature[:32])
+	
 	// Get Starknet curve order
 	n := ecc.STARK_CURVE.ScalarField()
 	dexPrivateKey := GrindKey(r, n)
